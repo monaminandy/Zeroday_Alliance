@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.App{
+  background: linear-gradient(90deg, #071726 22%, #0A3642 68%, #0B4752 84%);
+}
+.image{
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+}
+
+.title{
+  font-size: 35px;
+  font-family: "Black Ops One";
+  color: white;
+  text-decoration: none;
+}
+
+.left-header{
+  display: flex;
+  align-items: center;
+  width: 470px;
+  justify-content: space-between;
+}
+
+.middle-header{
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.nav{
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Courier Prime";
+  color: white;
+  transition: color 0.15s;
+}
+
+.nav:hover{
+  color:#4ADCF7 ;
+}
+.headerbutton{
+  height: 40px;
+  width: 80px;
+  font-size: 20px;
+  font-family: "Courier Prime";
+}
+
+.content{
+  font-family: "Courier Prime";
+  color: white;
+}
+
+.fullcontent{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left-content{
+  font-size: 40px;
+ 
+  width: 600px;
+  font-weight: bold;
+}
+.join{
+  width: 220px;
+  height: 65px;
+  border: solid;
+  border-radius: 50px;
+  border-color: #4ADCF7;
+  background-color: #07172600;
+  color: white;
+  font-family: "Courier Prime";
+  font-size: 30px;
+  font-weight: bold;
+  border-width: 3px;
+  transition: color 0.15s;
+}
+
+.join:hover{
+  color: #4ADCF7;
+}
+.image1{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-content{
+  display: flex;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-text{
+  color: white;
+  font-family: "Courier Prime";
+  font-size: 40px;
+  color: #4ADCF7;
+}
+
+.top-event{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 60px;
+  margin-top: 50px;
+  
+}
+
